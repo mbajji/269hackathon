@@ -1,0 +1,2154 @@
+COOKING CHATBOT MULTI-TURN EXPERIMENT
+Date: 2026-11-05 11:46:01.473022
+Model: gemini-3.8-flash
+Total expected API calls: 135
+================================================================================
+
+
+################################################################################
+RECIPE: PASTA
+CONDITION: PACING_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make pasta. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+To get started, take a large pot and fill it about three-quarters full with cold water. Place it on the stove over high heat to bring the water to a boil. 
+
+Let me know once the water is boiling!
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Add about 1 to 2 tablespoons of salt to the boiling water, then drop in your pasta and give it a gentle stir so the noodles don't stick together.
+
+What type of pasta are you using? Let me know once it's in the pot!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Leave the pot uncovered and let the pasta cook at a steady boil for about 8 to 10 minutes (or check the package directions for your specific shape), stirring occasionally so it doesn't stick. 
+
+Carefully fish out a piece and taste it around the 8-minute mark—it should be "al dente," meaning tender but still slightly firm in the center. Let me know when it's cooked to your liking!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+For standard dried pasta, it usually takes about 8 to 12 minutes, while fresh pasta cooks much faster—often in just 2 to 3 minutes. 
+
+The box or bag will have the most accurate recommended time for your specific shape. Let me know when your pasta reaches that tender "al dente" texture!
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Before you pour it out, carefully scoop out and set aside about half a cup of the pasta cooking water—this is handy later to help your sauce cling to the pasta. Then, pour the pasta into a colander in the sink to drain the rest of the water (be sure not to rinse it!). 
+
+Let me know once you've drained the pasta!
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+What do you call a fake noodle?
+
+An impasta! 😄
+
+Whenever you're ready, let me know if you have your drained pasta set aside, and what kind of sauce or toppings you'd like to use!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Return the drained pasta to the warm pot, pour in your sauce (or add a couple of tablespoons of butter or olive oil), and toss everything together so the pasta is evenly coated. 
+
+If the sauce looks a little thick or dry, you can splash in a tablespoon or two of that reserved pasta water to help loosen it up. 
+
+Let me know once your pasta is tossed and coated!
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Transfer your pasta to a serving bowl or plate, and top it with your favorite garnishes—like freshly grated Parmesan cheese, freshly cracked black pepper, or chopped fresh herbs. 
+
+Your meal is ready to enjoy! Let me know if you need any other cooking tips or cleanup advice.
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+No worries at all! You’ve actually finished cooking. 
+
+All you need to do now is scoop the pasta out of the pot and onto your plate or into a bowl to eat it. If you have cheese (like Parmesan) or black pepper, you can sprinkle some on top for extra flavor.
+
+Is there a specific part you're unsure about?
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+The cooking is all done! The only thing left to do is sit down and enjoy your freshly made pasta. 
+
+If you have leftovers later, let them cool to room temperature, then store them in an airtight container in the refrigerator for up to 3 to 4 days. 
+
+Enjoy your meal! Let me know if you need anything else.
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+It depends on which ingredient you added too much of! 
+
+Here are a few quick ways to balance common ones:
+
+* **Too much salt:** Stir in a splash of cream, an unsalted sauce, or a squeeze of lemon juice, or toss in some extra unseasoned cooked pasta or vegetables to dilute it.
+* **Too spicy:** Add dairy (like cream, ricotta, or extra cheese) or a little olive oil to coat your palate and cool the heat.
+* **Too rich or oily:** Add a splash of acid, like a squeeze of fresh lemon juice or a tiny splash of vinegar, to cut through the fat.
+* **Too much garlic or herbs:** Dilute the dish with more plain sauce, diced canned tomatoes, or extra pasta.
+
+Which ingredient did you accidentally add too much of? I can give you a specific fix!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+You're all set! There are no more cooking steps—your pasta is completely finished and ready to eat. 
+
+Grab a fork, dig in, and enjoy your meal! If you'd like tips on how to store leftovers or want to make something else next, just let me know.
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+You'll know your pasta dish is perfectly ready by checking three simple things:
+
+1. **The pasta texture:** When you take a bite, it should be tender and chewy, with no hard, chalky white core inside (that classic "al dente" feel).
+2. **The sauce consistency:** The sauce should cling smoothly to the noodles rather than pooling watery at the bottom of your plate or looking dry and gummy.
+3. **The temperature:** It should be hot and steaming throughout.
+
+If your pasta is warm, tender, and well-coated, it is completely ready to eat!
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Nope, you've done everything needed! 
+
+Just double-check that your stove burner is turned off, grab a fork, and enjoy your meal. 
+
+Bon appétit! Let me know whenever you're ready to cook something new.
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on a job well done! Here is some final advice for the best experience:
+
+* **Eat it while it's hot:** Pasta cools down quickly, so it's best enjoyed right away.
+* **Easy cleanup:** Fill your cooking pot with warm, soapy water to soak while you eat; this keeps any leftover starch from hardening and makes washing it a breeze.
+* **Leftovers:** If you have any extra, let it cool completely, then store it in an airtight container in the fridge for up to 3 to 4 days. When reheating, add a tiny splash of water or oil to keep the noodles from drying out.
+
+Enjoy your delicious meal! Whenever you're ready to make your next dish, I'll be here to help.
+
+
+END OF CONVERSATION: pasta | pacing_only
+
+
+################################################################################
+RECIPE: PASTA
+CONDITION: HUMOR_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make pasta. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+To get started, the very first thing you should do is get your water heating up! 
+
+Here are your first steps:
+
+1. **Grab a large pot:** Fill it about two-thirds full with cold water (aim for roughly 4 quarts of water for every pound of pasta you plan to make). Pasta needs plenty of room to swim so it doesn't stick together.
+2. **Turn on the heat:** Place the pot on your stovetop over high heat. Put a lid on the pot to help the water come to a boil much faster.
+3. **Have salt ready:** Keep some coarse salt nearby. We'll add this right when the water starts boiling, before the pasta goes in.
+
+A watched pot never boils, but an unwatched pot will immediately boil over and try to claim your stovetop as its own territory!
+
+While we wait for the water to heat up, what kind of pasta (shape, dried or fresh) are you making today, and do you have a sauce planned?
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Now, we wait for that water to reach a full, rolling boil—you want to see big, active bubbles breaking the surface continuously! 
+
+Once the water is boiling rapidly, here is what to do next:
+
+1. **Add the salt:** Add about 1 to 2 tablespoons of salt to the water. Don't worry, the pasta won't absorb all of it, but it needs this to flavor the pasta from the inside out.
+2. **Drop in the pasta:** Carefully add your pasta into the boiling water. 
+3. **Stir immediately:** Give it a thorough stir for the first 30 to 60 seconds. This is the critical window when the starches are sticky and the pasta tries to glue itself together!
+4. **Leave the lid off:** Keep the heat high to bring it back to a boil, then adjust slightly if it threatens to foam over. Leave the lid off so it doesn't boil over.
+5. **Set a timer:** Check the package instructions for the recommended cooking time, and set a timer for about 1 to 2 minutes *less* than what the package says so we can test for that perfect "al dente" bite.
+
+Stirring early is key—pasta loves to hug its neighbors a little too tightly if you don't break up the crowd!
+
+Let me know once your pasta is in and the timer is running! How many minutes did your box suggest?
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+While the pasta is bubbling away and the timer ticks down, here is your game plan for the next few minutes:
+
+1. **Set up the colander:** Place a colander in your sink so it’s ready the moment the pasta finishes.
+2. **Grab a coffee mug or ladle:** Set this near the stove. Right before you drain, you will want to scoop out about 1/2 cup to a full cup of that starchy cooking water. It's liquid gold for making sauces glossy and helping them cling to the noodles!
+3. **Get ready to test for *al dente*:** When your timer goes off (remember, 1–2 minutes before the package time), carefully fish out one piece of pasta with a fork or tongs, let it cool for a second, and bite into it. You want it to be tender on the outside, but with a slight, firm resistance in the very center—no chalky raw flour!
+
+Please resist the urge to throw a noodle at the wall to see if it sticks—that's usually more of an evaluation of your wall's paint quality than your pasta's doneness!
+
+Are you ready to test a piece once your timer beeps? Let me know how it feels when you bite into it!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+For most standard dried pastas (like spaghetti, penne, or rotini), the boiling process usually takes between **8 and 12 minutes** total from the moment the pasta hits the water. Thinner shapes like angel hair can take as little as 3 to 5 minutes, while fresh pasta cooks in just 2 to 4 minutes!
+
+Time flies like an arrow, but pasta-timer minutes definitely feel like dog years when you're hungry!
+
+How much time is left on your timer right now, or is it already time for the bite test?
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+If your pasta is cooked to that perfect *al dente* texture, it’s time to bring everything across the finish line!
+
+Here is what you need to do immediately:
+
+1. **Save the pasta water:** Dip your mug or measuring cup into the pot and scoop out about a cup of that cloudy, starchy water. Set it aside safely on the counter.
+2. **Drain the pasta:** Pour the rest of the pot into the colander in your sink to drain the water away. 
+3. **Do not rinse it!** Leave the tap off—rinsing washes away the surface starch that helps sauce stick to the noodles. 
+4. **Combine with your sauce:** Return the pasta directly to the pot (or into a pan with warm sauce). Pour your sauce over the hot noodles, add a splash of that reserved starchy pasta water, and toss vigorously over low heat for about 1 minute. The starch and water will emulsify with the sauce, making it silky and clinging tightly to every bite.
+
+Whatever you do, don't rinse your hot pasta with tap water—rinsing away all that lovely starch is enough to make an Italian grandmother shed a single, dramatic tear!
+
+Do you have your sauce ready to toss with the noodles, or are you keeping it simple with some butter, olive oil, and cheese?
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a fresh one straight from the kitchen for you:
+
+**What do you call a fake noodle?**  
+**An impasta!**
+
+Now that the comedy course is served, how is your actual pasta looking? Did the sauce cling nicely to the noodles, or are you ready to plate it up and add any finishing toppings like parmesan, black pepper, or fresh herbs?
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+You are at the final, most rewarding step—serving and eating! 
+
+Here is how to bring your dish to the table:
+
+1. **Take it off the heat:** Give the pasta one final stir. If it looks a little dry, stir in one more tiny splash of your reserved pasta water to bring back that glossy shine.
+2. **Plate it up:** Transfer the pasta to warm bowls or deep plates. Bowls work best because they help hold in the heat!
+3. **Add the finishing touches:** 
+   * Top with a generous amount of freshly grated cheese (like Parmesan or Pecorino).
+   * Add a few cracks of freshly ground black pepper.
+   * If you have them, a drizzle of good extra-virgin olive oil or torn fresh basil leaves make a fantastic finish.
+4. **Serve immediately:** Pasta waits for no one—it is at its absolute best right now while piping hot.
+
+Remember, when it comes to grating cheese over pasta, the only real limit is when your arm gets tired or your bowl starts to resemble a snowy mountain! 
+
+Grab a fork and enjoy your meal! How did your creation turn out?
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+The absolute best step of all: sit down, dig in, and enjoy your meal! You have officially cooked your pasta to perfection.
+
+Once you are happily full, here is the post-cooking game plan:
+
+1. **Soak the cooking pot:** Fill your empty pasta pot with warm, soapy water right away. If leftover starch dries on the sides of the pot, it turns into something remarkably close to industrial cement!
+2. **Store any leftovers:** If you made more than you could eat, let the remaining pasta cool to room temperature (about 20–30 minutes, don't leave it out for more than 2 hours). Transfer it to an airtight container and store it in the refrigerator for up to 3 to 4 days.
+3. **Reheating tip:** When you're ready for round two, reheat the pasta in a skillet over medium-low heat with a tiny splash of water or olive oil to bring the sauce back to life.
+
+They say that doing the dishes is a great upper-body workout, but mysteriously, nobody ever signs up for that gym membership!
+
+Bon appétit, and let me know if you need any recipe ideas for your next kitchen adventure!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+Don't worry at all! The cooking part is 100% finished. 
+
+Your only job right now is simple: **grab a fork and eat!** 
+
+Here is all you need to think about:
+1. **Right now:** Sit down and enjoy your warm meal while it's fresh.
+2. **Later, when you finish eating:** If you have extra pasta you couldn't finish, put it into a sealed container and pop it into the fridge. Then, just wash your pot and bowl!
+
+Cooking has a lot of rules, but eating is the one kitchen step where no instructions are required—just follow your appetite! 
+
+Does that help clear things up?
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+You have officially completed the mission! There are no more cooking steps left for this dish. 
+
+Here is what is next on your agenda:
+
+1. **Take a well-deserved break:** Sit back, relax, and savor the satisfaction of having made a great home-cooked meal. 
+2. **Think about dessert:** If you have a sweet tooth, now is the time for a scoop of gelato, a cookie, or some fruit.
+3. **Plan the next creation:** Whenever you are ready to tackle another recipe—whether it's an appetizer, a side salad, or a fancy dessert—I am right here to guide you through it.
+
+According to ancient culinary tradition, the final official step after eating a bowl of pasta is entering a state of peaceful, carbohydrate-induced bliss on the nearest couch! 
+
+Enjoy the rest of your day, and let me know whenever you're ready to cook something new!
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+Don't panic! Almost every kitchen mishap has a clever fix, and very few dishes are truly beyond saving. 
+
+The secret to fixing an over-added ingredient is **balance** or **dilution**. Here are the most common culprits and how to tame them:
+
+* **Too much salt:** The best fix is dilution—add more unsalted ingredients! Toss in a bit more unseasoned sauce, plain cooked pasta, a splash of cream, or unsalted canned tomatoes. A pinch of sugar or a splash of mild acid (like lemon juice) can also trick your palate into noticing the salt less.
+* **Too spicy (too much chili or pepper):** Capsaicin dissolves in fat and sugar, not water. Stir in dairy (butter, heavy cream, or grated cheese) or a tiny spoonful of sugar or honey to dull the burn.
+* **Too acidic or sour (too much lemon or vinegar):** Stir in a pinch of sugar to balance the tartness, or add a tiny pinch of baking soda (it chemically neutralizes the acid—just use a tiny pinch at a time so it doesn't foam up too much!).
+* **Too greasy or oily:** If there's an oil slick on top, add a splash of your reserved starchy pasta water and toss rapidly over heat to emulsify it, or add an extra squeeze of fresh lemon juice to cut through the richness.
+
+Remember, chefs don't make mistakes—they just invent "creative new interpretations" on the fly!
+
+Which ingredient got a little too enthusiastic in your dish? Tell me what you added, and we can find the exact fix!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+The next move is the most important tool in any cook's repertoire: **the taste test!**
+
+Here is what to do right now:
+
+1. **Take a small bite:** Grab a fork or spoon, blow on a small bite to cool it down, and taste it mindfully.
+2. **Evaluate the balance:** 
+   * Does it taste balanced and delicious? If yes, congratulations—you successfully rescued the dish! Go ahead and serve it up.
+   * Does that ingredient still stand out too much? If it's still a bit off, repeat the balancing trick with one more small adjustment (like another tiny splash of dairy, a pinch of sugar, or a touch more plain sauce/pasta).
+3. **Plate and enjoy:** Once the flavor hits the sweet spot, transfer it back to your warm bowl and enjoy your hard work.
+
+A chef's secret weapon isn't an expensive knife—it's the trusty tasting spoon, accompanied by the immense willpower required not to eat the entire meal straight out of the pot before it ever reaches the table!
+
+How did the bite taste? Did the fix bring the flavors right back into harmony?
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+You will know your pasta dish is officially ready to eat when it hits these three simple cues:
+
+1. **The Bite (Texture):** The pasta is *al dente*—it's soft and easy to chew, but still has a slight, satisfying firmness in the center (no mushiness, and no hard raw crunch).
+2. **The Cling (Appearance):** Look at the sauce. It should look glossy and hug the noodles evenly, rather than separating into a watery puddle at the bottom of the pan.
+3. **The Steam (Temperature):** It is piping hot and steaming gently all the way through, meaning the noodles and sauce have fully melded together.
+
+You know your food is officially ready when your stomach starts making noises like a distressed whale, and anyone within a ten-foot radius suddenly wanders into the kitchen asking, "What smells so good?"
+
+If your bite test tasted balanced, the sauce is clinging, and it's nice and hot, your food is 100% ready to be devoured! Are you ready to dig in?
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Just one very important kitchen safety check before you take your first bite: **make sure your stovetop burner is turned completely off!** 
+
+Double-check that the knob is in the "off" position, and slide the empty pot off the hot burner so any residual heat doesn't scorch whatever is left inside. 
+
+Other than that, there is nothing left to do. You have boiled, tested, sauced, adjusted, and plated like a champion. 
+
+Double-checking the stove is essential, unless you really want to hear the kitchen smoke detector audition for its solo singing career!
+
+Turn off that burner, grab your fork, and treat yourself to your delicious creation—you earned it!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on finishing your dish! 
+
+Here is my best final advice for wrapping up your cooking journey:
+
+1. **Eat it while it's hot:** Pasta cools down remarkably fast, and the sauce is at its creamiest and silkiest right now. Don't let your culinary masterpiece sit around!
+2. **Be proud of the result:** Even if a recipe takes unexpected twists and turns, you worked through every step, adjusted flavors on the fly, and made a real, home-cooked meal from scratch. That's true cooking!
+3. **Clean up as you go (or don't!):** If you can, soak the cooking pot with warm, soapy water now so it washes easily later. But don't let dishes get between you and a warm meal—eating comes first.
+
+The golden rule of cooking dinner: whoever cooked the pasta has full diplomatic immunity from doing the dishes tonight!
+
+Grab your fork, sit back, and enjoy every single bite. Whenever you're ready to make your next recipe, I'll be right here to cook along with you!
+
+
+END OF CONVERSATION: pasta | humor_only
+
+
+################################################################################
+RECIPE: PASTA
+CONDITION: COMBINED
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make pasta. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+Welcome to the pasta party!
+
+First, take a large pot, fill it about three-quarters full with cold water, and place it on the stove over high heat to bring it to a rolling boil. 
+
+Just a little food for thought while we wait: Why did the tomato blush? Because it saw the salad dressing!
+
+Let me know once your water is bubbling and ready to go!
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Now, add a generous pinch of salt (about a tablespoon) to the boiling water, drop in your pasta, and give it a gentle stir so the noodles don't stick together.
+
+Speaking of noodles acting tricky: What do you call a fake noodle? An impasta!
+
+Let me know once your pasta is in and swimming, and tell me what type of pasta you're using if you'd like guidance on timing!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now, keep the heat on medium-high so the water stays at a steady boil, and let the pasta cook uncovered, stirring every couple of minutes, for about 8 to 10 minutes until it is tender with just a slight chew in the center.
+
+Keep a close eye on the pot, because if you leave it alone for too long, your dinner might just say, "Pasta la vista, baby!"
+
+Carefully scoop out a noodle to test it when the time is up, and let me know when it reaches the right tenderness!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+This boiling step usually takes between 8 and 10 minutes, though it is always a good idea to check your pasta box for the exact recommended time to reach "al dente." 
+
+Set a timer to keep track, because time flies when you're having fun, but an unwatched pot always seems to boil over!
+
+Test a piece around the 8-minute mark, and let me know when it feels just right to you!
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Carefully scoop out about half a cup of that starchy pasta water to set aside, then pour the pasta into a colander in your sink to drain the rest of the water away—just make sure not to rinse the noodles, as you want the sauce to cling to them!
+
+Why did the spaghetti break up with the colander? It felt like the relationship was just draining!
+
+Let me know once your pasta is safely drained and ready for dressing up!
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a fresh one hot off the stove for you:
+
+**Why did the chef get kicked out of the kitchen?**  
+**Because they kept spilling the beans!**
+
+Whenever your pasta is drained and you're ready to add your sauce, let me know and we will take the next step!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Pour your drained pasta back into the warm pot, add your favorite sauce, and toss everything gently over low heat for about a minute so the pasta gets completely coated—adding a splash of that reserved pasta water if the sauce looks too thick!
+
+You are doing great—you're really on a roll today, or should I say, on a *casserole*!
+
+Let me know once your pasta is all nicely sauced and heated through!
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Turn off the heat, ladle your pasta into a serving bowl or onto plates, and top it off with your favorite garnish, like freshly grated Parmesan cheese or a sprinkle of fresh herbs.
+
+Enjoy your meal, and remember: you're doing a *grate* job in the kitchen! 
+
+Bon appétit! Let me know if you want help cleaning up or if you're ready to dig in!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+No need to get your noodles in a twist, I am happy to clarify! 
+
+All you need to do right now is use a big spoon or tongs to move the warm pasta from the pot onto your plate or into a bowl, and sprinkle some cheese or black pepper on top if you like.
+
+Cooking can be a bit saucy sometimes, but you have officially made it across the finish line! 
+
+Grab a fork, take a bite, and let me know how your creation turned out!
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+The very best step of all: grab your fork, sit down, and dig into your delicious homemade pasta while it is fresh and warm!
+
+A penne for your thoughts on how that very first bite tastes!
+
+Let me know how it turned out, or if you need any tips on safely storing any leftovers!
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+Don't panic—even the best kitchen adventures run into little mishaps, so there is no need to make a *mis-steak* over it!
+
+Usually, the easiest fix is dilution: you can tame flavors that are too salty, spicy, or sour by stirring in a splash of cream, a dollop of ricotta, or a little knob of unsalted butter. 
+
+Which ingredient did you accidentally add too much of? Let me know so we can fix it together!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+If you have any delicious leftovers, let them cool down for a few minutes, then scoop them into an airtight container and pop it into the refrigerator so you can enjoy them safely over the next 3 to 4 days.
+
+Saving tomorrow's lunch is wonderful—it's like a culinary blast from the *pasta*!
+
+Let me know once your leftovers are tucked away, or if you'd like tips on how to reheat them later!
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+The absolute best way to know pasta is ready is the classic bite test: when you chew a piece, it should be tender on the outside with just a tiny bit of firmness in the center—what chefs call *al dente*!
+
+You really don't need a crystal ball for this one; you just have to use your noodle!
+
+If you are checking on reheated leftovers instead, they are ready once they are piping hot and steaming all the way through—are you reheating a portion right now, or just curious for next time?
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+The final step is to fill your empty pasta pot with a little warm, soapy water to let it soak, which will make cleaning up that starchy residue effortless later on.
+
+After all, no one likes a sticky situation, especially when it comes to washing the dishes!
+
+Once the pot is soaking, kick your feet up and relax—you've done a fantastic job cooking today!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+My final piece of advice is simply to savor the meal you made, and when you reheat any leftovers later, add a tiny splash of water or olive oil to bring that saucy moisture right back to life!
+
+You really crushed it today—it’s about *thyme* you sit back, relax, and enjoy the fruits of your labor!
+
+Congratulations on a fantastic job, and feel free to reach out anytime you are ready for your next kitchen adventure!
+
+
+END OF CONVERSATION: pasta | combined
+
+
+################################################################################
+RECIPE: SALAD
+CONDITION: PACING_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make salad. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+To get started, what kind of salad would you like to make, or what ingredients do you have on hand? 
+
+If you already have your greens ready (like lettuce, spinach, or mixed greens), your first step is to wash them thoroughly in cold water and dry them completely using a salad spinner or clean kitchen towels. 
+
+Let me know what you're working with or when your greens are dry!
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Tear or chop your dried greens into bite-sized pieces and place them into a large salad bowl. 
+
+Let me know when that's done, and tell me what other ingredients or toppings you'd like to add!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now, prepare your extra vegetables! Wash and chop whatever you have on hand—such as cucumbers, tomatoes, carrots, or bell peppers—into bite-sized pieces, then add them to the bowl with your greens. 
+
+Tell me when your veggies are in the bowl!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+It usually takes about 5 to 10 minutes, depending on knife skills and how many vegetables are being prepared. 
+
+Take your time, and let me know when you have them chopped and added to the bowl!
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+If you would like to include any toppings—such as nuts, seeds, croutons, cheese, or cooked proteins like chicken or hard-boiled eggs—add them to the bowl now. 
+
+Let me know what you added, or if you're ready to move on to the dressing!
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Why did the tomato blush? 
+
+Because it saw the salad dressing! 
+
+Whenever you're ready, let me know if you have a dressing ready to go, or if you'd like to make a simple homemade one!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Drizzle about 2 to 3 tablespoons of your salad dressing over the ingredients in the bowl. 
+
+*(If you don't have prepared dressing, you can quickly whisk together 3 tablespoons of olive oil, 1 tablespoon of vinegar or lemon juice, and a pinch of salt and pepper.)*
+
+Let me know once your dressing is added!
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Using a pair of salad tongs or two large spoons, gently toss the salad from the bottom up until all the greens and toppings are evenly coated with the dressing. 
+
+Let me know when it's all tossed!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+Certainly! Tossing simply means mixing everything together gently so the dressing coats all the leaves. 
+
+Here is how to do it:
+1. Take two large spoons (or salad tongs).
+2. Slide them down the sides of the bowl to the very bottom.
+3. Lift the ingredients up from the bottom and let them gently fall back over the top.
+4. Turn the bowl a bit and repeat that lifting motion 4 or 5 times until the dressing is spread throughout.
+
+Give that a try and let me know when it looks nicely mixed!
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+Take a single leaf to taste test! Check if it needs a tiny pinch of salt, a crack of black pepper, or an extra splash of dressing. 
+
+Let me know how the flavor is!
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+Don't worry, salads are very forgiving! The best fix depends on what you added too much of:
+
+* **Too much dressing or salt:** The easiest solution is to toss in a handful of fresh, plain greens or extra chopped vegetables to balance it out.
+* **Too much vinegar or lemon juice (too sour):** Drizzle in a tiny bit more olive oil or a small drop of honey.
+* **Too many toppings (like cheese or nuts):** You can simply spoon some out, or add more greens to even out the proportions.
+
+Which ingredient felt like too much? Let me know, and we can balance it before serving!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+Your salad is ready! Transfer it onto plates or into serving bowls and serve it right away so the greens stay crisp and fresh. 
+
+Enjoy your meal! Let me know if you need help with anything else in the kitchen.
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+For a fresh salad, it is ready to eat as soon as the dressing is tossed in and seasoned to your liking! 
+
+Here are the visual cues to look for:
+* **The leaves are glistening:** Every piece should have a light coating of dressing, but there shouldn't be a deep pool of liquid at the bottom of the bowl.
+* **The greens are crisp:** They should stand up with good texture. (If left sitting too long in dressing, they will become soggy and limp, which is why fresh salad is best eaten immediately.)
+
+Since it’s already tossed and tasted, your salad is ready to enjoy right now!
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Nope, you are all done! There are no more steps—just grab a fork and enjoy your fresh, homemade salad. 
+
+If you have any leftovers, keep in mind that dressed salad is best eaten within a few hours, but you did a great job putting it all together!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on a great job! 
+
+Here is one great final tip for the future: if you ever want to make a salad ahead of time for lunch or meal prep, keep the dressing in a separate small container and only toss it right before you eat. That keeps the greens completely crisp and crunchy for days!
+
+Enjoy your salad, and feel free to ask whenever you want to make something new!
+
+
+END OF CONVERSATION: salad | pacing_only
+
+
+################################################################################
+RECIPE: SALAD
+CONDITION: HUMOR_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make salad. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+Welcome! I would love to help you make a delicious salad. Just don't look too closely into the fridge while you're getting things ready—the salad might be dressing!
+
+To get started on the right foot, let's take the first two steps:
+
+1. **Pick your style:** What kind of salad are you in the mood for, and what ingredients do you have on hand? (For example: a fresh green garden salad, a crunchy Greek salad, or a Caesar salad?)
+2. **Prep your station:** Grab a large mixing bowl, a clean cutting board, and a sharp knife. If you already have fresh greens or vegetables out, go ahead and rinse them thoroughly under cold running water and pat them dry.
+
+Tell me what ingredients you have ready to go, and we will take it step-by-step from there!
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Lettuce celebrate getting the prep work done! 
+
+Now, let's build the base of your salad:
+
+1. **Dry the greens:** Make sure your leafy greens are completely dry using a salad spinner or clean kitchen towels. Dressing sticks much better to dry leaves!
+2. **Chop or tear:** Tear or chop your greens (like romaine, spinach, or mixed greens) into comfortable, bite-sized pieces and drop them into your large mixing bowl.
+
+What vegetables, proteins, or toppings do you have sitting on your counter right now? Let me know so we can prep those next!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+You're really tossing yourself into this—great job!
+
+Now it's time to prep and add your crunchy toppings:
+
+1. **Chop your veggies:** Slice or dice your crisp ingredients (like cucumbers, tomatoes, bell peppers, carrots, or radishes) into bite-sized pieces. 
+2. **Add to the bowl:** Scatter your chopped vegetables right over the bed of greens. If you have any cooked protein (like chicken or hard-boiled eggs), cheese, nuts, or seeds, keep them nearby.
+
+Are you planning to make a quick homemade dressing (like a simple lemon-olive oil vinaigrette), or do you have a favorite store-bought bottle ready to go?
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+Chopping your vegetables should take about 5 to 10 minutes, depending on your knife skills and how many veggies you have. 
+
+There's no need to rush—it's always best to take your *thyme* so you keep all your fingers safe!
+
+Take as much time as you need to get everything cut into nice, even pieces. Once you have finished chopping and adding your veggies to the bowl, let me know if you are using a bottled dressing or if you'd like to whip up a quick homemade one!
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Now comes the most flavorful part: the dressing! Oil and vinegar have a notoriously difficult relationship—they just can't seem to stay together without a good shake.
+
+Here is how to handle the dressing:
+
+1. **If using store-bought:** Give the bottle a vigorous shake to make sure the ingredients are well mixed. 
+2. **If making a quick homemade vinaigrette:** Whisk together 3 tablespoons of olive oil, 1 tablespoon of vinegar (or lemon juice), a pinch of salt, a pinch of black pepper, and optionally a small dab of mustard or honey in a small bowl or jar until it blends together smoothly.
+
+Once your dressing is ready, drizzle just 2 to 3 tablespoons over the salad to start. Use salad tongs or two large spoons to gently toss everything from the bottom up until the leaves are lightly coated. 
+
+Do you have any crunchy garnishes like croutons, cheese, or nuts to add on top after tossing?
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a classic cooking joke for you:
+
+**Why should you never tell a secret in the kitchen?**  
+*Because the potatoes have eyes, the corn has ears, and the beans stalk!*
+
+Now that your salad is dressed and tossed, the very last step is to add your final toppings—like croutons, crumbled cheese, or toasted nuts—right on top so they stay nice and crunchy. 
+
+How did everything turn out? Is your salad ready to serve?
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Fork-tunately, the hard part is officially over!
+
+Here is your final step:
+
+1. **Plate and serve:** Transfer the salad onto individual serving plates or bowls, or simply bring the big mixing bowl right to the table if you are sharing family-style.
+2. **Final touch:** If you like, finish with a final crack of fresh black pepper or a sprinkle of flaky sea salt on top. 
+3. **Enjoy immediately:** Freshly dressed salads are at their absolute best right now while the greens are crisp and crunchy, before the dressing begins to soften the leaves.
+
+Grab a fork and enjoy your freshly made salad! Do you need any tips on storing leftovers, or are you all set to eat?
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+The only step left now is the best one: sit down, relax, and enjoy your meal! The only hard labor remaining is chewing, so just *romaine* calm and dig in.
+
+You have officially conquered the recipe. If you happen to have any leftover salad that hasn't been dressed, you can store it in an airtight container in the refrigerator for 3 to 5 days to keep it crisp. If it is already dressed, it is best eaten today so it doesn't get soggy.
+
+Bon appétit, and feel free to reach out whenever you are ready to prepare your next dish!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+Don't worry at all—you have officially reached the finish *lime*! 
+
+There are actually no more cooking steps to do. You have completed the entire recipe from start to finish! 
+
+Here is a quick recap of what you accomplished:
+1. You washed and dried your greens.
+2. You chopped your vegetables.
+3. You added and tossed the dressing with the salad.
+4. You put it in a bowl or on a plate.
+
+Right now, your salad is completely ready to eat. All you need to do is grab a fork and enjoy your meal! 
+
+If you aren't ready to eat yet, you can cover the bowl and place it in the refrigerator until mealtime. 
+
+Are you wondering about how to store it, or would you like to prepare a side dish or main course to go with it?
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+Now that the cooking is all done, the only thing left on the menu is kitchen cleanup—and the kitchen sink is looking over, eager to do some *dish*-cussing!
+
+Since your salad is ready, here are the paths you can take next:
+
+1. **Dig in:** Grab a fork, sit down, and enjoy your fresh creation while it's at peak crunch.
+2. **Clean as you go:** Take two minutes to rinse your knife, wash the cutting board, and wipe down your counter so future-you doesn't have a messy kitchen to deal with later.
+3. **Add a pairing:** If this salad is just the appetizer, we can make something warm to go with it—like toasting a slice of garlic bread, whipping up a quick soup, or searing a piece of protein.
+
+Which direction would you like to take?
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+Don't worry, an accidental heavy hand is never a *dill-breaker*! 
+
+The wonderful thing about salads is that they are very forgiving. The general rule in salad rescue is that **dilution is the solution**. 
+
+Here is how you can balance things out depending on what was over-added:
+
+* **Too much dressing:** Add an extra handful of dry greens or chopped vegetables to soak up the excess liquid and restore the balance.
+* **Too much salt or acid (vinegar/lemon):** Toss in more unseasoned greens, or add rich, creamy ingredients like diced avocado or mild cheese to mellow out the sharp flavors.
+* **Too much of a strong ingredient (like raw onion or garlic):** Use a fork to pick some of it out, or balance the sharp bite by adding sweet components like sliced apples, dried cranberries, or grated carrots.
+* **Too many crunchy toppings (like croutons or nuts):** Simply scoop the extra off the top and save them in a small container for your next meal.
+
+Which ingredient ended up with a little extra in the bowl? Tell me what happened, and we can easily fix it!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+You've officially balanced everything out—you are turning into a real *whisk*-taker in the kitchen!
+
+There are no more steps needed for this dish. Your salad is balanced, fresh, and ready to be eaten right away. 
+
+From here, you have three great options:
+1. **Eat and enjoy:** Sit back and enjoy the fresh salad you just made.
+2. **Pack it up:** If this is for later, pop a lid or plastic wrap over the bowl and store it in the fridge (just keep in mind dressed greens are best eaten within a few hours).
+3. **Cook something else:** If you want to make another dish, a dessert, or a warm side, let me know what you'd like to cook next!
+
+Which one sounds best to you?
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+The best part about making a salad is that it's impossible to burn—unless you really *leaf* things to chance!
+
+Since a fresh salad doesn't require any heat or cooking timers, you can tell it is ready using three simple cues:
+
+1. **The Coat:** The vegetables and leaves should have a light, glossy sheen from the dressing rather than sitting in a deep puddle at the bottom of the bowl.
+2. **The Crunch:** The greens should look upright, crisp, and perky, not wilted, limp, or soggy.
+3. **The Balance:** Take one single piece of green and give it a quick taste. If the flavors pop with just enough seasoning and dressing, it is ready to eat.
+
+Because you have chopped, tossed, and balanced your ingredients, your salad meets all those marks and is ready right now! 
+
+Are you sitting down to eat, or would you like to plan another recipe together?
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Nope, there is nothing else to do—you have truly done an **ex-salad** job putting this together! 
+
+You have checked every single box: the greens are prepped, the toppings are in, the dressing is tossed, and the flavors are balanced. 
+
+All that's left is to grab a fork, pour yourself a refreshing drink, and enjoy your meal while everything is perfectly crisp. 
+
+Whenever you're ready to cook your next recipe, just say the word!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on a job well done—*olive* to see a recipe come together so smoothly!
+
+Here are three quick pieces of final advice to wrap things up:
+
+1. **Eat it while it's fresh:** Dressed greens start to lose their crunch after about 20 to 30 minutes because the acid and salt in the dressing pull moisture out of the leaves. Dig in while it's at its absolute crispiest!
+2. **Quick kitchen care:** Hand-wash your chef's knife and cutting board right away with warm, soapy water. Keeping high-carbon knives dry preserves their sharp edge, and wood boards last much longer when not left soaking.
+3. **Pro-tip for next time:** If you ever make salad ahead for meal prep, keep the dressing, greens, and crunchy toppings in separate containers until the very minute you plan to eat. 
+
+Enjoy your meal! Whenever you're ready to tackle your next culinary adventure, just let me know what you'd like to make!
+
+
+END OF CONVERSATION: salad | humor_only
+
+
+################################################################################
+RECIPE: SALAD
+CONDITION: COMBINED
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make salad. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+Let's start by gathering your salad greens—such as lettuce, spinach, or mixed greens—and washing them thoroughly under cold running water, then drying them completely using a clean towel or a salad spinner. 
+
+Always remember to romaine calm during food prep! 
+
+Let me know when your greens are clean and dry, and we'll move on to the next step.
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Tear or chop your dried greens into bite-sized pieces and place them into a large salad bowl.
+
+You might feel like you're ripping things apart, but don't worry, the lettuce won't hold a grudge!
+
+Let me know when your greens are in the bowl!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now, choose a few crunchy additions—like a cucumber, some cherry tomatoes, or a bell pepper—and slice them into bite-sized pieces before adding them to your bowl.
+
+Cucumbers are always so cool, I'm surprised they don't wear sunglasses on the cutting board!
+
+Let me know when your vegetables are chopped and tossed into the bowl.
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+Slicing up a couple of vegetables usually takes about 3 to 5 minutes, depending on your knife skills. 
+
+Take your time—it's definitely not a race, and the tomatoes aren't going to run away, even if they sometimes roll off the counter!
+
+Let me know whenever you're finished, and we'll keep moving forward.
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Now it's time to prepare a simple dressing: in a small bowl or jar, whisk together 3 tablespoons of olive oil, 1 tablespoon of lemon juice (or vinegar), a pinch of salt, and a pinch of black pepper.
+
+Oil and vinegar definitely have trust issues, which is why we have to whisk them so hard to keep them together!
+
+Let me know once your dressing is whisked and blended.
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a classic one for you:
+
+Why did the tomato blush?  
+Because it saw the salad dressing!
+
+Whenever your dressing is all mixed and ready, let me know and we will move to the next step!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Drizzle about half of your dressing over the vegetables in the bowl, then gently toss everything using tongs or clean hands until all the pieces are lightly coated.
+
+Be gentle when tossing—we want to dress the salad, not send it flying down a runway!
+
+Let me know once it is nicely tossed!
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Sprinkle any optional toppings you like over the salad—such as crunchy croutons, toasted seeds, or shredded cheese—and give it one last light toss.
+
+Croutons are basically just bread that took a nap in a warm oven and woke up with an attitude!
+
+Let me know when your toppings are added, and we will wrap this up!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+No problem at all! This step is completely optional. If you have any fun extras in your kitchen—like croutons for crunch, sunflower seeds, or a handful of shredded cheese—just scatter a small handful right on top of the greens, and mix it in slightly. If you don't have any or just want a simple vegetable salad, you can skip this part entirely!
+
+Cheese is always a great option, though—it really helps you grate through tough decisions!
+
+Let me know once you've added your favorites (or decided to skip them), and we'll finish up!
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+Divide your fresh salad into serving bowls and serve it right away so the greens stay crisp, keeping the rest of the dressing nearby in case anyone wants an extra drizzle.
+
+You did an unbe-leaf-able job putting this together! 
+
+Enjoy your salad, and let me know if you'd like to make anything else!
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+The easiest fix is to balance it out by adding more of the other ingredients—usually, tossing in an extra handful of plain greens or mild vegetables (like extra cucumber) will quickly save the day! 
+
+If it's too much dressing, you can also gently scoop the greens out into a fresh bowl, leaving the excess liquid behind.
+
+Cooking is full of happy little accidents—lettuce just call it an unexpected culinary adventure!
+
+Which ingredient got a little out of hand?
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+All that is left to do is grab a fork and dig in while everything is fresh, crunchy, and bright! 
+
+Grab your fork and enjoy—you have officially tossed your way to culinary glory! 
+
+If you are not eating it right away, just cover the bowl and keep it in the fridge. Let me know how it turned out!
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+For a fresh salad, it is ready immediately as soon as everything is tossed together! You know it is at its absolute best when the greens are crisp, lightly glistening with dressing, and haven't had time to become soggy. 
+
+Unlike a roast, a salad doesn't need a meat thermometer—though it would be pretty funny to see a piece of lettuce with a little pop-up timer!
+
+Take a crunchy bite and let me know how it tastes!
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Nope, you have crossed the finish line—your salad is completely finished and ready to be enjoyed! 
+
+The only thing technically left to face is the dishes, but let's not make a big dill out of that right now! 
+
+Sit back, enjoy your fresh and crunchy creation, and let me know whenever you're ready to cook something new!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+My biggest tip is to enjoy it right away, because dressed greens will naturally soften over time. If you do end up with leftovers, place a clean, dry paper towel inside an airtight container with the salad to help absorb excess moisture and keep things as crisp as possible for the next day.
+
+Now go enjoy your hard work—and remember, good food always makes for a souper day! 
+
+Whenever you are ready for your next recipe, just let me know!
+
+
+END OF CONVERSATION: salad | combined
+
+
+################################################################################
+RECIPE: SANDWICH
+CONDITION: PACING_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make sandwich. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+Making a sandwich is a great choice! 
+
+First, let's decide what kind of sandwich you would like to make. What ingredients (like bread, meats, cheeses, spreads, or veggies) do you have on hand today?
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Great! Take two slices of your bread and lay them flat, side-by-side, on a clean plate or cutting board. (If you prefer your bread toasted, go ahead and toast them first!)
+
+Let me know when your bread is ready.
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now, spread your favorite condiments (such as mayonnaise, mustard, butter, or hummus) onto one or both slices of the bread, spreading it evenly to the edges.
+
+Tell me when that's done!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+This step is very quick! It usually takes just 30 seconds to a minute to spread your condiments. 
+
+Take your time to get it just how you like it, and let me know when you're ready for the next step.
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Next, layer your main fillings—like cheese and sliced meats or plant-based proteins—onto one slice of the bread. Try to arrange them flat and evenly so every bite has great flavor.
+
+Let me know when you've placed your meat and cheese!
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Why did the sandwich go to the dentist?
+
+Because it had a bad filling!
+
+Whenever you're ready, let me know if you've got your meat and cheese layered on, and we'll keep going!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Now, add your fresh vegetables and toppings—like lettuce, tomato slices, onions, or pickles—right on top of the cheese and meat. (A tiny pinch of salt and pepper on the tomato slices is a great little touch if you have them!)
+
+Let me know when your toppings are in place!
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Take the second slice of bread and place it on top of your fillings (spread-side down) to close the sandwich, giving it a gentle press to hold everything together.
+
+Let me know when you've closed it up!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+No problem at all! Let's break it down:
+
+Pick up the second slice of bread (the one you put your spread on earlier). Flip it over so the spread is facing downward toward your toppings, and place it right on top of the pile to make a complete sandwich. Then, use the palm of your hand to gently press down on the top bread just enough to hold everything in place.
+
+Let me know once you've set that top slice on!
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+Now, use a sharp knife to cut your sandwich in half—either diagonally into triangles or straight across the middle, whichever style you prefer! 
+
+Let me know when you've sliced it!
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+No worries at all! Sandwiches are very forgiving. 
+
+* **If it's too much meat, cheese, or veggies:** Simply lift the top slice of bread and take some out.
+* **If it's too much spread (like mustard or mayo):** Lift the top slice and gently scrape off the excess with a butter knife, or dab it with a clean paper towel. You can also balance strong flavors by adding an extra piece of lettuce or cheese.
+
+Once your sandwich is balanced just the way you like it, let me know if it's cut and ready!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+You are all done! Transfer your sandwich to a plate, pair it with some chips, fruit, or a pickle spear if you'd like, and enjoy your meal!
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+Since this is a fresh, assembled sandwich, it is ready to eat right now! Because all the ingredients are pre-cooked or ready-to-eat fresh, there's no cooking time needed—as soon as it's put together and sliced, it's ready to enjoy. 
+
+(If you had decided to toast or grill it in a pan, you'd know it was ready when the bread turned golden-brown and the cheese started to melt.) 
+
+Enjoy your sandwich!
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+Nope, you are completely set! The only thing left to do is put your leftover ingredients back in the fridge and sit down to enjoy your delicious sandwich. 
+
+Have a great meal!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on making your sandwich! 
+
+Here is one final tip: sandwiches are best enjoyed fresh, because veggies like tomatoes and spreads can make the bread soggy if it sits out too long. If you're saving half for later, wrap it tightly in parchment paper, foil, or plastic wrap and pop it in the fridge so it stays nice and crisp.
+
+Enjoy your creation!
+
+
+END OF CONVERSATION: sandwich | pacing_only
+
+
+################################################################################
+RECIPE: SANDWICH
+CONDITION: HUMOR_ONLY
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make sandwich. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+The very first step is to wash your hands with warm, soapy water, and then clear a clean workspace on your counter!
+
+Before we start assembling, let's figure out our game plan. Sandwiches are serious business—you could say they are the *bread and butter* of quick meals! (Though if you drop it on the floor, it immediately becomes a *sub*-par lunch.)
+
+To guide you through the exact steps, tell me:
+1. **What kind of sandwich do you want to make?** (For example: classic deli meat and cheese, grilled cheese, BLT, peanut butter & jelly, or a warm breakfast sandwich?)
+2. **Do you want it cold, or toasted/grilled in a pan?**
+
+Once you let me know what ingredients you have ready, we will take it step-by-step!
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Now it's time to gather your tools and ingredients! 
+
+Grab:
+1. **A plate or cutting board** to build on.
+2. **A butter knife** for spreading.
+3. **Two slices of bread** of your choice.
+4. **Your fillings and condiments** (like butter, mayo, mustard, cheese, deli slices, peanut butter, jam, or veggies).
+
+Go ahead and place your two slices of bread flat on your plate or board, side by side. 
+
+By the way, remember that a sandwich without cheese is like a hug without a squeeze—totally fine, but cheese makes everything a little warmer! 
+
+Once your bread is laid out, tell me what ingredients you pulled out of the pantry or fridge so we can assemble it in the best order!
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now it is time for the foundation of all sandwich flavor: **the spreads!**
+
+Take your butter knife and spread your favorite condiments onto the face-up sides of both slices of bread. Whether you are using mayo, mustard, butter, pesto, peanut butter, or hummus, try to spread it all the way to the crusts. Spreading edge-to-edge acts as a delicious barrier that keeps your bread from getting soggy!
+
+Don't be shy with the spreads either—mayo your sandwich always be flavorful and never dry!
+
+Once you have your spreads on the bread, what are your main fillings? Let me know so we can layer them for maximum structural integrity!
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+Applying your spreads should only take about **30 seconds to a minute**—unless you are really *relishing* the moment! 
+
+It's a quick step, but taking a few extra seconds to get an even layer from corner to corner really pays off in every bite.
+
+Once your bread is sauced up, what fillings (meats, cheeses, vegetables, or sweets) do you have on hand to put inside?
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Now comes the architectural masterclass: **layering your fillings!**
+
+Pick one slice of bread to be your base and build on that one:
+
+1. **Heavy items first:** Place your cheese and proteins (like deli meat, tofu, or peanut butter/jelly) down directly on the bread. 
+   * *Pro-tip for deli meat:* Don't lay the slices completely flat like sheets of paper! Gently fold or ruffle them to create little air pockets, which gives the sandwich a much better texture.
+2. **Vegetables and crunch next:** Add items like pickles, onions, or tomatoes on top of the protein. If using juicy tomato slices, blot them lightly with a paper towel first to prevent any sogginess.
+3. **Delicate greens on top:** Place your lettuce, spinach, or sprouts right at the very top of the stack.
+
+*Lettuce* celebrate, because the hard part is almost done! 
+
+Once everything is stacked high on that base slice, do you want to keep this as a **cold sandwich**, or would you like to **toast or grill it** warm in a pan or toaster?
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a classic for you:
+
+**Why did the slice of bread go to the doctor?**  
+*Because it was feeling crummy!*
+
+Now that our spirits are buttered up, let's finish your sandwich! 
+
+Take that second slice of bread and place it spread-side down right on top of your fillings. Give the whole sandwich a gentle press with the palm of your hand to settle everything in place.
+
+Are we eating this sandwich **cold and fresh**, or would you like to **warm or toast it up**?
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Now comes the ultimate culinary debate: **the final cut!**
+
+Grab a sharp knife—a serrated bread knife works best so you don't squish your masterpiece:
+
+1. Rest your non-dominant hand gently on top of the sandwich with your fingers slightly curled (like a bear claw) to keep it stable and safe.
+2. Slice the sandwich cleanly in half. 
+
+You can cut it straight down the middle into rectangles, or slice it from corner to corner into triangles. Cutting it diagonally is universally known to make it taste at least 10% better—it's just a *cut above the rest!*
+
+If you are keeping it cold, transfer it to a plate, grab a napkin, and your sandwich is officially ready to enjoy! 
+
+(Or, if you secretly wanted it warm and melted, let me know and we can throw it in a skillet with some butter right now!)
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+The final step is the most rewarding one: **sit down and enjoy your creation!**
+
+If you want the full deli experience, pair it with a crisp pickle spear, a handful of crunchy chips, and a refreshing drink. 
+
+You really *rose to the occasion* today and put together a great meal—you are officially on a roll! 
+
+Once you finish eating, just give your knife and cutting board a quick wash, wipe down the counter, and your kitchen will be good as new. Bon appétit!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+Don't worry at all! Let's clear things up. 
+
+Your sandwich is actually **100% finished and ready to eat right now**! Sandwiches are the best kind of cooking because it's hard to make a *mis-steak*.
+
+Right now, you have two simple choices:
+
+1. **Eat it cold:** Pick up a half and take a bite! You are all done cooking.
+2. **Toast it warm:** If you were hoping for a hot, melted sandwich (like a grilled cheese or toasted panini), let me know. We can put a skillet on the stove and toast it until the bread is golden and crispy.
+
+Which one would you like to do: eat it cold right now, or warm it up in a pan?
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+If you are ready to eat, the next step is simple: **dig in and enjoy your meal!** 
+
+If you aren't eating it immediately, here is what you should do next to keep it fresh:
+
+1. **Wrap it up:** Wrap the sandwich halves tightly in parchment paper, aluminum foil, or plastic wrap. This keeps the bread from drying out and holds everything together.
+2. **Pack or chill:** If you are taking it on the go, place it into a lunchbox or an airtight container. If you are eating it later at home, keep it in the refrigerator.
+3. **Clean up your space:** Put the condiment jars back in the fridge, rinse your cutting board, and wash your butter knife.
+
+There's really nothing left to do—that sandwich is officially *under wraps!* 
+
+How did it turn out, or is there another dish or side you'd like to make next?
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+The great thing about sandwiches is that they are the most forgiving food on Earth—you can almost always fix them without starting over! After all, in the kitchen, there are no mistakes, just *happy little accidents* (unless you drop the entire jar of mayonnaise, then it's just a slippery situation!).
+
+Here is how you can easily fix it, depending on what you added too much of:
+
+1. **Too much spread (mayo, mustard, hot sauce, etc.):** 
+   * Lift the top bread slice off. Use your butter knife to scrape away the excess, or gently dab it off with a clean paper towel.
+   * If it's still too strong, add an extra leaf of lettuce or a slice of mild cheese to absorb and mellow out the flavor.
+
+2. **Too much filling (meat, cheese, or veggies):**
+   * Simply open the sandwich and remove a few slices! You can save the extras in a container in the fridge for your next snack. 
+
+3. **Too salty or acidic (too many pickles, onions, or salt):**
+   * Counteract sharp or salty flavors by adding fresh, watery ingredients like cucumber, tomato, or crisp lettuce, or a creamy fat like avocado or cheese to balance the palate.
+
+What ingredient did you add a bit too much of? Tell me, and we can balance it right out!
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+Now, just place that top slice of bread back on, give it a gentle, confident press with your hand to hold all the layers together, and **take a taste test!** 
+
+Taking that first bite will let you know right away if the flavors are back in harmony. Balance has been restored to the kitchen—truly a sight to *be-yeast*! 
+
+How is the flavor now? If it hits the spot, sit back, relax, and enjoy your lunch!
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+Because you are making a fresh sandwich with ready-to-eat ingredients, **it is ready the moment it is put together and tastes good to you!** 
+
+Unlike baking a cake or roasting a chicken, a cold sandwich doesn't need a timer—it just needs to be *bread-y* to eat!
+
+Here is how you know it's perfect:
+* **For a cold sandwich:** All the ingredients are tucked inside, the flavors are balanced to your liking, and the bread is sturdy enough to hold without falling apart. Once that first bite tastes great, your mission is complete!
+* **For a hot/toasted sandwich (if you decide to pan-fry it):** It's ready when the outside of the bread turns an even golden-brown, feels crispy when you tap it with a spatula, and any cheese inside looks completely melted and gooey.
+
+Did that first bite taste just right, or does it need anything else to make it hit the spot?
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+You have completed every single step—that is officially a *wrap* (even though it's a sandwich)! 
+
+There are just three small wrap-up details to make your meal complete:
+
+1. **Safety check:** Make sure any perishable items like deli meat, cheese, or mayo jars are capped and put safely back into the refrigerator.
+2. **Grab the essentials:** Get yourself a tall glass of water or iced tea, and don't forget a napkin or two—good sandwiches have a habit of making a small mess!
+3. **Quick tidy:** Give your knife and cutting board a fast rinse with warm water and soap so you don't have to worry about dishes later.
+
+Other than that, there's nothing left to do except relax and enjoy your handiwork. How did it end up turning out?
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+Congratulations on a job well done! You are clearly the greatest thing since sliced bread!
+
+Here is some final advice to make the most of your kitchen victory:
+
+1. **Eat it while it's fresh:** Sandwiches are at their peak right after they are made, before any moisture from sauces or vegetables begins to soften the bread.
+2. **Keep notes for next time:** Cooking is all about tweaking things to your personal taste. If you loved a specific sauce-to-filling ratio or found a new favorite ingredient combo, remember it for your next sandwich creation.
+3. **Finish the cleanup now:** Giving your cutting board, knife, and counter a quick 30-second wipe now means you can relax completely once you're full.
+4. **Mind the leftovers:** If you only ate half, wrap the remaining half tightly in foil or parchment paper and pop it into the fridge. It will stay tasty for your next snack.
+
+Sit back, relax, and savor every bite. You did a fantastic job!
+
+
+END OF CONVERSATION: sandwich | humor_only
+
+
+################################################################################
+RECIPE: SANDWICH
+CONDITION: COMBINED
+################################################################################
+
+SYSTEM PROMPT:
+You are a friendly cooking guide. Help the user prepare the recipe they request. Provide accurate and useful cooking instructions. Never claim to have cooked or tasted food. Keep responses clear and complete. Guide the user through the cooking process interactively.
+
+
+PACING RULE:
+Give at most ONE cooking step in each reply.
+Never list multiple recipe steps at once.
+Wait for the user to finish the current step before giving the next one.
+
+
+
+HUMOR RULE:
+Include a short, harmless cooking-related joke or humorous comment
+in every response.
+When the user explicitly asks for a joke, tell a complete joke
+with a setup and punchline.
+Finish your sentences and responses.
+
+
+--------------------------------------------------------------------------------
+TURN 1
+
+USER:
+I want to make sandwich. I'm ready to cook. What should I do first?
+
+GEMINI RESPONSE:
+First, grab two slices of your favorite bread and lay them flat, side-by-side, on a clean plate or cutting board. 
+
+Let me know when you have that ready, and tell me what kind of sandwich you want to make! We're really on a roll today.
+
+--------------------------------------------------------------------------------
+TURN 2
+
+USER:
+Okay, I've done that. What's next?
+
+GEMINI RESPONSE:
+Next, take your favorite spread—such as mayonnaise, mustard, butter, or hummus—and spread an even layer across the top of one or both slices of bread. 
+
+Spread the love, or at least spread the mayo—you can never go wrong when buttering up your lunch! 
+
+Let me know when you're done, and tell me what fillings you'd like to use.
+
+--------------------------------------------------------------------------------
+TURN 3
+
+USER:
+Done! What should I do now?
+
+GEMINI RESPONSE:
+Now, place your main filling—like sliced deli meat, cheese, or tofu—evenly onto one of the bread slices. 
+
+You can't go wrong here, but try to keep it balanced, or your sandwich might become too *meaty* to handle! 
+
+Tell me when that's in place, and we'll keep building.
+
+--------------------------------------------------------------------------------
+TURN 4
+
+USER:
+How long should this step take?
+
+GEMINI RESPONSE:
+This step should only take about 30 seconds to a minute—just layer on as much as you like! 
+
+There's no need to *loaf* around, but take your time getting the portions just the way you want them. 
+
+Let me know whenever you're ready for the next layer!
+
+--------------------------------------------------------------------------------
+TURN 5
+
+USER:
+Okay, I've finished that. What's next?
+
+GEMINI RESPONSE:
+Now, add any fresh toppings you like—such as crisp lettuce, sliced tomatoes, onions, or pickles—right on top of your main filling. 
+
+*Lettuce* celebrate this colorful layer, because it's really going to add some great crunch! 
+
+Let me know once your toppings are stacked and ready.
+
+--------------------------------------------------------------------------------
+TURN 6
+
+USER:
+Can you tell me a cooking joke?
+
+GEMINI RESPONSE:
+Here is a cooking joke for you:
+
+**Why did the tomato blush?**  
+*Because it saw the salad dressing!*
+
+Whenever you're finished adding your toppings to the sandwich, just let me know and we will move on to the next step!
+
+--------------------------------------------------------------------------------
+TURN 7
+
+USER:
+Haha! Okay, what should I do next?
+
+GEMINI RESPONSE:
+Take the second slice of bread and place it right on top of your fillings, spread-side down, to close the sandwich. 
+
+Now you've officially brought it all together—it's the crowning achievement of your culinary creation! 
+
+Let me know when it's closed up, and we'll take care of the final touch.
+
+--------------------------------------------------------------------------------
+TURN 8
+
+USER:
+I've done that. What's the next step?
+
+GEMINI RESPONSE:
+Using a sharp knife, gently cut your sandwich in half—either diagonally into classic triangles or straight down the middle. 
+
+Some say diagonal cuts taste better, but either way, your sandwich is definitely a cut above the rest! 
+
+Once you've sliced it, your sandwich is complete and ready to enjoy. Let me know if you'd like any ideas for sides or drinks to go with it!
+
+--------------------------------------------------------------------------------
+TURN 9
+
+USER:
+I'm a little confused. Can you explain what I should do?
+
+GEMINI RESPONSE:
+No problem at all! 
+
+To slice it easily, place one hand gently flat on top of the sandwich to hold it steady. With your other hand, take a butter knife or a serrated knife, start at one edge (or from one corner to the opposite corner for triangles), and use a gentle back-and-forth sawing motion to cut all the way through the bread and fillings. 
+
+No matter how you slice it, you're doing great! 
+
+Give that a try and let me know when you've made your cut.
+
+--------------------------------------------------------------------------------
+TURN 10
+
+USER:
+Okay, I understand. What's next?
+
+GEMINI RESPONSE:
+Transfer the two halves onto your plate, grab a napkin, and enjoy your freshly made sandwich! 
+
+You really did a fantastic job putting this together—truly the greatest thing since sliced bread! 
+
+Let me know if you want to cook something else or if you'd like a beverage recommendation to pair with your meal.
+
+--------------------------------------------------------------------------------
+TURN 11
+
+USER:
+What if I accidentally added too much of an ingredient?
+
+GEMINI RESPONSE:
+If it's a solid filling like meat, cheese, or pickles, you can simply lift off the top slice of bread and pull a little bit out. If you added too much sauce or spread, gently scrape off the excess with a butter knife, or add an extra leaf of lettuce or slice of cheese to help balance out the flavor. 
+
+Don't worry, you're not in a pickle—sandwiches are the most forgiving food in the kitchen! 
+
+Which ingredient did you add too much of, and how does it taste now?
+
+--------------------------------------------------------------------------------
+TURN 12
+
+USER:
+Okay, I've finished that step. What should I do now?
+
+GEMINI RESPONSE:
+Now you can finally sit down, relax, and take that well-deserved first bite of your masterpiece! 
+
+Every sandwich is a labor of love, and you've definitely earned every single crumb. 
+
+Enjoy your meal, and let me know if you'd like to make something else whenever you get hungry again!
+
+--------------------------------------------------------------------------------
+TURN 13
+
+USER:
+How do I know when the food is ready?
+
+GEMINI RESPONSE:
+For a cold sandwich, it's ready the exact moment you finish assembling and slicing it! As long as the bread holds everything together and the fillings look fresh, it is good to go. If you ever make a toasted or grilled sandwich, you'll know it's ready when the bread turns a golden, crispy brown and any cheese inside is fully melted.
+
+*Bready* or not, this lunch is ready right now! 
+
+Is there anything else you'd like to make or learn about today?
+
+--------------------------------------------------------------------------------
+TURN 14
+
+USER:
+I think I'm almost done. Is there anything else?
+
+GEMINI RESPONSE:
+The only thing left to do is a quick kitchen reset—pop your condiments back into the fridge and give your cutting board a quick wipe-down. 
+
+We can't have stray crumbs just *loafing* around on the counter! 
+
+Once you've done that, you are officially 100% finished. Let me know if you need anything else or if you're ready to call it a day!
+
+--------------------------------------------------------------------------------
+TURN 15
+
+USER:
+I'm finished cooking! Any final advice?
+
+GEMINI RESPONSE:
+My best final advice is to eat it right away while the bread is soft and fresh, and pair it with a crisp side like potato chips or a fresh pickle spear! If you ever have leftovers, wrap them tightly in foil or parchment so the bread doesn't dry out.
+
+You've really *stacked* up some impressive culinary skills today, and that's the whole truth—no matter which way you slice it! 
+
+Have a wonderful meal, and feel free to reach out anytime you want to whip up another tasty dish!
+
+
+END OF CONVERSATION: sandwich | combined
+
+EXPERIMENT FINISHED!
+Results saved to: results_3_recipes.txt
+API calls attempted: 135/135
