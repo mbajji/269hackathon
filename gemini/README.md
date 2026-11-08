@@ -1,43 +1,37 @@
-# Herding AI Cats: Gemini-powered chatbot + prompt-interference experiment
+# Herding AI Cats: Gemini-Powered Chatbot and Prompt-Interference Experiment
 
-A small, focused project inspired by Zamfirescu-Pereira et al., *Herding AI Cats* (DIS 2023). It tests whether two individually useful chatbot instructions interfere when combined.
+A small project inspired by Zamfirescu-Pereira et al., *Herding AI Cats* (DIS 2023). It explores whether two individually useful chatbot instructions interfere when combined.
 
-## What's included
+We focus on the "fickleness of addition": whether adding a humor instruction affects a chatbot's ability to provide cooking instructions one step at a time.
 
-- `chat.py`: an interactive cooking chatbot powered by Gemini.
-- `experiment.py`: runs the four prompt conditions and saves all responses to CSV.
-- `analyze.py`: summarizes the preliminary heuristic scores.
-- `report_template.md`: report outline for the hackathon.
+## What's Included
 
-## The four conditions
+- `chat.py`: An interactive cooking chatbot powered by Gemini.
+- `experiment.py`: Runs automated multi-turn conversations across different recipes and prompt conditions.
+- `analyze.py`: Analyzes experiment results.
+- `report_template.md`: Report outline.
 
-- `pacing_only`: give at most one recipe step per response.
-- `humor_only`: tell a short cooking joke when asked.
-- `combined`: put both instructions together in the system instruction.
-- `combined_separated`: place the rules in two visibly separate, labeled sections.
+## The Three Conditions
 
-**Important limitation:** The Gemini `generate_content` API takes one `system_instruction` string. Therefore `combined_separated` uses separate labeled sections in that string; it does not recreate two independent developer messages from the earlier OpenAI version. Treat this condition as a formatting/separation extension, not a direct test of message-role priority.
-
-This is **not a recreation of CarlaBot** or a full reproduction of the paper. It operationalizes one reported phenomenon in a small test.
+- `pacing_only`: Give at most one recipe step per response.
+- `humor_only`: Include cooking-related humor.
+- `combined`: Follow both the pacing and humor instructions.
 
 ## 1. Install Python and the Gemini SDK
 
 Use Python 3.10 or newer. Open this folder in VS Code, then open **Terminal → New Terminal**.
 
 ```bash
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
-On some Macs, use `python3` instead of `python`.
-
-## 2. Get a Gemini API key
+## 2. Get a Gemini API Key
 
 1. Go to [Google AI Studio API keys](https://aistudio.google.com/api-keys).
-2. Sign in with a Google account.
-3. Create or copy an API key.
-4. Keep it private; do not put it in your source code or commit it to GitHub.
+2. Sign in and create or copy an API key.
+3. Keep your key private; do not put it in your source code or commit it to GitHub.
 
-Set the key in your terminal for the current terminal session:
+Set the key in your terminal:
 
 **Mac / Linux:**
 ```bash
@@ -49,60 +43,55 @@ export GEMINI_API_KEY="paste-your-key-here"
 $env:GEMINI_API_KEY="paste-your-key-here"
 ```
 
-**Windows Command Prompt:**
-```cmd
-set GEMINI_API_KEY=paste-your-key-here
-```
-
-Google offers a free tier for selected Gemini models, with usage limits. The default model in this project (`gemini-3.8-flash`) is listed as free on Google's pricing page at the time this project was prepared. Limits and model availability can change, so check [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing) and your [AI Studio usage dashboard](https://aistudio.google.com/usage). Free-tier prompts may be used by Google to improve its products; avoid sending personal or confidential information.
-
-## 3. Try the interactive chatbot
+## 3. Try the Interactive Chatbot
 
 ```bash
-python chat.py --recipe pasta --condition combined
+python3 chat.py --recipe pasta --condition combined
 ```
 
-Other recipes: `salad`, `sandwich`, `oatmeal`, `smoothie`.
+Available recipes include pasta, salad, and sandwich.
 
-Try the different instruction conditions:
+Try different conditions:
 
 ```bash
-python chat.py --recipe pasta --condition pacing_only
-python chat.py --recipe pasta --condition humor_only
-python chat.py --recipe pasta --condition combined
-python chat.py --recipe pasta --condition combined_separated
+python3 chat.py --recipe pasta --condition pacing_only
+python3 chat.py --recipe pasta --condition humor_only
+python3 chat.py --recipe pasta --condition combined
 ```
 
-Type `quit` to end the chat.
+Type `quit` to end the conversation.
 
-## 4. Run the experiment
+## 4. Run the Automated Experiment
 
-First, run the free synthetic demo to check the pipeline (no API calls):
+Run the experiment with:
 
 ```bash
-python experiment.py --provider demo --repeats 1 --out demo.csv
-python analyze.py --input demo.csv
+python3 experiment.py --repeats 1 --max-tokens 4096 --out results_3_recipes.txt
 ```
 
-Demo mode uses synthetic responses only to test file generation. **Do not report demo results as experimental findings.**
+The experiment uses:
 
-Then run real Gemini calls:
+- **3 recipes:** pasta, salad, and sandwich.
+- **3 conditions:** pacing-only, humor-only, and combined.
+- **15 turns per conversation.**
 
-```bash
-python experiment.py --provider gemini --model gemini-3.8-flash --repeats 3 --out results.csv
-python analyze.py --input results.csv
-```
+This produces **135 Gemini API calls**:
 
-Five recipes × six test prompts × three repeats × four conditions = **360 Gemini calls**. If you want a smaller first run, use `--repeats 1` (120 calls) or test only two conditions with `--conditions pacing_only combined`.
+3 recipes × 3 conditions × 15 turns = 135 calls.
 
-## Design and evaluation
+Each recipe-condition combination is one continuous, 15-turn conversation. The chatbot receives the conversation history rather than starting over with every turn.
 
-The same test prompts are run in each condition. Tests include normal step requests, a request for all steps at once, and joke requests.
+The output is saved in `results_3_recipes.txt`, which contains the system prompt and the prompts and responses for each turn. This makes it possible to inspect how the chatbot behaves throughout each conversation.
 
-The script records outputs and preliminary heuristic scores:
-- `pacing_pass`: heuristic check for no more than one recognizable recipe step.
-- `humor_proxy_pass`: keyword-based joke proxy.
+## 5. Experiment Goals and Limitations
 
-**Manually inspect and label outputs before reporting results.** These heuristics are imperfect and can misclassify responses. Compare `pacing_only` against `combined`, and `humor_only` against `combined`. Compare `combined` against `combined_separated` for the formatting/separation extension. A finding that interference does not occur is also a valid result.
+We examine whether combining pacing and humor instructions changes how the chatbot responds. In particular, we look at whether it:
 
-Limitations: small synthetic prompt set, single-turn experiment prompts, heuristic scoring, and the Gemini-specific limitation of representing separated rules as sections of one system instruction. The interactive chatbot preserves prior turns by including the visible transcript in each request.
+- Provides one cooking step at a time.
+- Includes humor throughout the conversation.
+- Answers follow-up questions appropriately.
+- Maintains its instructions over multiple turns.
+
+This is a small, partial reproduction of one phenomenon discussed in *Herding AI Cats*, not a recreation of CarlaBot or the original study.
+
+Limitations include the small number of recipes, conditions, and conversations. Results are also dependent on the Gemini model and its response-generation settings. Outputs should be manually inspected because automated or informal observations cannot perfectly measure instruction-following.
