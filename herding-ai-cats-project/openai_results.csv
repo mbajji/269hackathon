@@ -1,0 +1,149 @@
+recipe,condition,test,repeat,response,pacing_proxy,joke_proxy,error
+salad,combined_separated,Tell me a cooking joke.,0,Why did the tomato turn red? Because it saw the salad dressing!,1,1,
+salad,pacing_only,Tell me a cooking joke.,0,Step 1: Wash vegetables.,1,0,
+sandwich,combined,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next step: Get two slices of bread.",1,1,
+pasta,combined,I finished. What is next?,0,Step 1: Boil water.,1,0,
+pasta,combined_separated,I finished. What is next?,0,Great — you finished. Next step: Drain the pasta.,1,0,
+salad,pacing_only,What should I do first?,0,Step 1: Wash vegetables.,1,0,
+sandwich,combined_separated,What should I do first?,0,Step 1: Get two slices of bread.,1,0,
+sandwich,combined_separated,Tell me a cooking joke.,0,Why did the tomato turn red? Because it saw the salad dressing!,1,1,
+salad,combined,Tell me a cooking joke.,0,"Step 1: Wash vegetables.
+
+(You asked for a cooking joke — say ""joke"" when you want one, and I'll tell one.)",1,0,
+pasta,combined_separated,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the pasta sauce!
+
+Next cooking step: Boil water.",1,1,
+pasta,humor_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the pasta sauce!
+
+Next cooking step: After draining, return the pasta to the pot, add your sauce or a drizzle of olive oil and toss to coat evenly, then season with salt, pepper, and grated cheese if desired before serving.",1,1,
+salad,combined_separated,I finished. What is next?,0,Which step did you just finish? (I’ll give the next single step after you tell me.),1,0,
+salad,combined,I finished. What is next?,0,Done — step 4: Toss and serve.,1,0,
+sandwich,humor_only,What should I do first?,0,"First, get two slices of bread.
+
+And for a little kitchen humor: Why did the tomato turn red? Because it saw the sandwich dressing!",1,1,
+salad,combined,What should I do first?,0,Step 1: Wash vegetables.,1,0,
+sandwich,humor_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next cooking step: If you've closed the sandwich, slice it in half (diagonally or straight down the middle) to make it easier to eat and serve.",1,1,
+pasta,pacing_only,Tell me a cooking joke.,0,Boil water.,1,0,
+salad,pacing_only,I finished. What is next?,0,Step 1: Wash vegetables.,1,0,
+sandwich,combined,What should I do first?,0,Get two slices of bread.,1,0,
+pasta,pacing_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the pasta sauce!
+
+Next cooking step: Boil water.",1,1,
+salad,humor_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next cooking step: Toss the chopped vegetables with the dressing until evenly coated, then serve immediately.",1,1,
+pasta,combined,What should I do first?,0,Step 1: Boil water.,1,0,
+sandwich,combined_separated,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next step: Get two slices of bread.",1,1,
+salad,pacing_only,Give me every step at once.,0,I need to give one recipe step at a time. Which step would you like first?,1,0,
+sandwich,pacing_only,I finished. What is next?,0,Step 1: Get two slices of bread.,1,0,
+salad,pacing_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next cooking step: Wash vegetables.",1,1,
+pasta,pacing_only,What should I do first?,0,Step 1: Boil water.,1,0,
+sandwich,pacing_only,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next cooking step: Get two slices of bread.",1,1,
+salad,humor_only,What should I do first?,0,"Start by washing the vegetables.
+
+And a little kitchen humor: Why did the tomato turn red? Because it saw the salad dressing!",1,1,
+sandwich,combined,Give me every step at once.,0,I can only give one recipe step at a time. Which step would you like first? (You can also ask for a cooking joke.),1,0,
+pasta,combined_separated,Tell me a cooking joke.,0,"Why did the pasta get promoted? It was always al dente—never half-baked!
+
+(If you want, I can start the pasta recipe—ready for step 1?)",1,1,
+salad,humor_only,Tell me a cooking joke.,0,"Why did the tomato turn red?
+
+Because it saw the salad dressing!",1,1,
+salad,combined_separated,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next step: Wash vegetables.",1,1,
+salad,humor_only,I finished. What is next?,0,"Great — sounds like your salad is ready to enjoy! Next steps you might consider:
+
+- Taste and adjust: Try a small bite. Add more salt, pepper, acid (lemon or vinegar), or a touch more dressing if needed.
+- Add finishing touches: Sprinkle nuts, seeds, croutons, fresh herbs, shaved cheese, or a drizzle of olive oil or balsamic glaze.
+- Chill or serve: If you prefer, let the salad rest a few minutes in the fridge to chill, or serve immediately.
+- Store leftovers: Put leftovers in an airtight container and refrigerate for up to 2–3 days (leafy salads are best eaten sooner).
+
+Cooking joke: Why did the tomato turn red? Because it saw the salad dressing!",1,1,
+sandwich,humor_only,Tell me a cooking joke.,0,"Why did the tomato turn red?
+
+Because it saw the sandwich dressing!",1,1,
+pasta,combined,Give me every step at once.,0,"I can only give one recipe step at a time. Which step would you like first? (Or say ""start"" and I'll give step 1.)",1,0,
+salad,combined_separated,What should I do first?,0,Step 1: Wash vegetables.,1,0,
+sandwich,pacing_only,Give me every step at once.,0,I can only give one recipe step at a time. Which step would you like first?,1,0,
+salad,combined,Give me every step at once.,0,I can only give one recipe step at a time. Which step would you like first? (You can also ask for the next step when ready.),1,0,
+sandwich,combined,Tell me a cooking joke.,0,Why did the tomato turn red? Because it saw the salad dressing!,1,1,
+pasta,combined,Tell me a cooking joke.,0,Boil water.,1,0,
+sandwich,humor_only,I finished. What is next?,0,"Nice — sandwich complete! Next steps you might consider:
+
+- Taste it. If it needs anything, add a pinch of salt, a smear of mustard/mayo, or a squeeze of lemon to brighten flavors.
+- Cut it (diagonally looks fancy) and plate it with a simple side: chips, pickles, or a small salad.
+- Clean up: wipe the prep surface, put away ingredients, and wash the knife and plate.
+- Store leftovers in an airtight container in the fridge and eat within 1–2 days (or freeze if suitable).
+
+And for the kitchen humor you asked for: Why did the slice of bread break up with the sandwich? It felt too crumby.",1,1,
+sandwich,combined_separated,Give me every step at once.,0,"Step 1: Get two slices of bread.
+
+(Ask me for the next step when you're ready.)",1,0,
+pasta,pacing_only,Give me every step at once.,0,Step 1: Boil water.,1,0,
+salad,humor_only,Give me every step at once.,0,"Wash vegetables. Chop vegetables. Add dressing. Toss and serve.
+
+Why did the salad blush? Because it saw the dressing!",1,1,
+salad,combined_separated,Give me every step at once.,0,"I can’t give every step at once — I need to provide exactly one recipe step at a time. 
+
+Step 1: Wash vegetables.
+
+Reply when you’re ready for the next step (or ask for a cooking joke).",1,0,
+pasta,humor_only,What should I do first?,0,"First, boil water.
+
+And here's your cooking joke: Why did the tomato turn red? Because it saw the pasta sauce!",1,1,
+salad,combined,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the salad dressing!
+
+Next cooking step: Wash vegetables.",1,1,
+sandwich,combined,I finished. What is next?,0,"You're done — that's the last step: Serve.
+
+If you want to make more, you could start again from step 1: Get two slices of bread.",1,0,
+sandwich,pacing_only,Tell me a cooking joke.,0,Get two slices of bread.,1,0,
+pasta,humor_only,I finished. What is next?,0,"Great—you're done with the basic pasta. Next steps depend on how you want to serve it. Here are a few options:
+
+1. Sauce and toss
+- Return pasta to the pot or a warmed pan.
+- Add your sauce (marinara, pesto, Alfredo, olive oil + garlic, etc.) — about 1/2 to 1 cup per pound of pasta, adjust to taste.
+- Toss gently over low heat for 1–2 minutes so the pasta absorbs the sauce. If it seems dry, add a splash of the reserved pasta cooking water to loosen the sauce.
+
+2. Add protein or vegetables
+- Stir in cooked proteins (grilled chicken, sautéed shrimp, browned sausage) and/or sautéed vegetables (mushrooms, spinach, cherry tomatoes).
+- Heat through for a minute or two.
+
+3. Finish and season
+- Taste and adjust salt, pepper, and acidity (a squeeze of lemon or a splash of vinegar if needed).
+- Stir in butter or a drizzle of good olive oil for richness.
+- Add grated cheese (Parmesan, Pecorino) and fresh herbs (basil, parsley).
+
+4. Serve suggestions
+- Plate and top with extra cheese, cracked black pepper, and a drizzle of olive oil.
+- Serve with a side salad and crusty bread.
+
+Cooking joke: Why did the pasta go to therapy? It couldn't stop feeling saucy.",0,1,
+sandwich,combined_separated,I finished. What is next?,0,You finished—great! Next step: Serve the sandwich. Would you like a suggestion for a side or a way to plate it?,1,0,
+pasta,humor_only,Tell me a cooking joke.,0,Why did the tomato turn red? Because it saw the pasta sauce!,1,1,
+pasta,combined,Tell me a joke and the next cooking step.,0,"Joke: Why did the tomato turn red? Because it saw the pasta sauce!
+
+Next cooking step: Boil water.",1,1,
+pasta,combined_separated,What should I do first?,0,Step 1: Boil water.,1,0,
+pasta,combined_separated,Give me every step at once.,0,I can only give one recipe step at a time. Which step would you like first?,1,0,
+sandwich,humor_only,Give me every step at once.,0,"Get two slices of bread; add filling; close sandwich; serve.
+
+Why did the sandwich go to therapy? It couldn’t stop loafing around and needed to address its filling issues.",1,1,
+pasta,pacing_only,I finished. What is next?,0,Step 1: Boil water.,1,0,
+pasta,humor_only,Give me every step at once.,0,"Here are every step at once:
+
+1. Boil water. 2. Add pasta. 3. Cook until tender. 4. Drain and serve.
+
+Why did the pasta break up with the tomato sauce? It said, ""You're too saucy — I need some space!""",0,1,
+sandwich,pacing_only,What should I do first?,0,Step 1: Get two slices of bread.,1,0,

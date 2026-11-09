@@ -1,0 +1,448 @@
+conversation_id,recipe,condition,repeat,turn,turn_type,user_message,response,error
+pasta|combined_separated|0,pasta,combined_separated,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|combined_separated|0,pasta,combined_separated,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined_separated|0,pasta,combined_separated,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure—here's one: Why did the tomato turn red? Because it saw the salad dressing!
+
+(Recipe paused. Tell me when you're ready to continue to Step 3.)",
+pasta|combined_separated|0,pasta,combined_separated,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined_separated|0,pasta,combined_separated,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3. Next step:
+
+Step 4: Drain and serve.
+
+Tell me when you're ready for anything else (or if you want a cooking joke).",
+salad|pacing_only|0,salad,pacing_only,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|pacing_only|0,salad,pacing_only,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|pacing_only|0,salad,pacing_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here’s a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+When you’re ready to continue the recipe, tell me and I’ll give the next step.",
+salad|pacing_only|0,salad,pacing_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|pacing_only|0,salad,pacing_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next step is:
+
+Step 4: Toss and serve.
+
+If you want any extra tips for tossing or serving, ask and I’ll give them (still one step or tip at a time).",
+pasta|humor_only|2,pasta,humor_only,2,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Boil water.
+
+Why did the pasta break up with the tomato? It couldn't handle the sauce of commitment.",
+pasta|humor_only|2,pasta,humor_only,2,1,progress_1,I've finished that step. What should I do next?,"Next, add pasta to the boiling water.
+
+Why don't skeletons fight over pasta? They don't have the stomach for it.",
+pasta|humor_only|2,pasta,humor_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the cook get arrested? Because they beat the eggs and whipped the cream!,
+pasta|humor_only|2,pasta,humor_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Cook until tender.
+
+Why did the pasta always get invited to parties? Because it was so saucy.",
+pasta|humor_only|2,pasta,humor_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps:
+3. Cook until tender.
+4. Drain and serve.
+
+Why did the tomato blush? Because it saw the salad dressing.",
+sandwich|humor_only|0,sandwich,humor_only,0,0,start,Please help me cook this recipe. What is the first step?,"First step: Get two slices of bread.
+
+Why did the tomato turn red? Because it saw the sandwich dressing!",
+sandwich|humor_only|0,sandwich,humor_only,0,1,progress_1,I've finished that step. What should I do next?,"Next step: Add filling.
+
+Want a joke while you cook? Why did the sandwich go to therapy? Because it had too much on its plate!",
+sandwich|humor_only|0,sandwich,humor_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the bread break up with the butter? Because it found someone butter!,
+sandwich|humor_only|0,sandwich,humor_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Close sandwich.
+
+Why did the chef get arrested? For beating the eggs!",
+sandwich|humor_only|0,sandwich,humor_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps (from current point):
+3. Close sandwich.
+4. Serve.
+
+Why did the sandwich go to school? To become a little breader!",
+sandwich|combined|2,sandwich,combined,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|combined|2,sandwich,combined,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|combined|2,sandwich,combined,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the tomato turn red? Because it saw the salad dressing!,
+sandwich|combined|2,sandwich,combined,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|combined|2,sandwich,combined,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. 
+
+Step 3: Close sandwich.",
+salad|combined|1,salad,combined,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined|1,salad,combined,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined|1,salad,combined,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready, I'll give the next recipe step.)",
+salad|combined|1,salad,combined,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined|1,salad,combined,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I must give exactly one recipe step at a time. You've just completed Step 3 (Add dressing). Next step:
+
+Step 4: Toss and serve.
+
+When you've finished it, tell me and I'll confirm or help further.",
+sandwich|combined|0,sandwich,combined,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|combined|0,sandwich,combined,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|combined|0,sandwich,combined,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the tomato turn red? Because it saw the salad dressing!,
+sandwich|combined|0,sandwich,combined,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|combined|0,sandwich,combined,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3: Close sandwich. 
+
+Next step:
+Step 4: Serve.",
+sandwich|pacing_only|1,sandwich,pacing_only,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|pacing_only|1,sandwich,pacing_only,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|pacing_only|1,sandwich,pacing_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why did the tomato turn red? Because it saw the sandwich dressing!",
+sandwich|pacing_only|1,sandwich,pacing_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|pacing_only|1,sandwich,pacing_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.",I can only give one recipe step at a time. You've completed Step 3 (Close sandwich). Give me a confirmation when you're ready for the next step.,
+salad|combined_separated|1,salad,combined_separated,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined_separated|1,salad,combined_separated,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined_separated|1,salad,combined_separated,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Sure — here's one: Why did the tomato turn red? Because it saw the salad dressing!,
+salad|combined_separated|1,salad,combined_separated,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined_separated|1,salad,combined_separated,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can’t give multiple recipe steps at once — I must give exactly one step at a time. 
+
+Here’s the next single step: Step 3: Add dressing.
+
+When you’ve finished that, ask me for the next step and I’ll provide it.",
+sandwich|pacing_only|2,sandwich,pacing_only,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|pacing_only|2,sandwich,pacing_only,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|pacing_only|2,sandwich,pacing_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready, tell me and I'll give the next recipe step.)",
+sandwich|pacing_only|2,sandwich,pacing_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|pacing_only|2,sandwich,pacing_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next step is:
+
+Step 3: Close sandwich.
+
+Tell me when you're ready for the final step.",
+sandwich|combined|1,sandwich,combined,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|combined|1,sandwich,combined,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|combined|1,sandwich,combined,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+Tell me when you're ready to continue the recipe.",
+sandwich|combined|1,sandwich,combined,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|combined|1,sandwich,combined,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. 
+
+Step 3: Close sandwich.",
+pasta|combined_separated|1,pasta,combined_separated,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|combined_separated|1,pasta,combined_separated,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined_separated|1,pasta,combined_separated,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke for you:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(Step will remain at Step 2: Add pasta until you ask to continue.)",
+pasta|combined_separated|1,pasta,combined_separated,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined_separated|1,pasta,combined_separated,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The current step is Step 3: Cook until tender. If you've finished that, ask me to continue and I'll give the next step.",
+pasta|combined_separated|2,pasta,combined_separated,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|combined_separated|2,pasta,combined_separated,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined_separated|2,pasta,combined_separated,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Why did the tomato turn red? Because it saw the pasta sauce! 
+
+(When you're ready to continue, I can give the next recipe step.)",
+pasta|combined_separated|2,pasta,combined_separated,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined_separated|2,pasta,combined_separated,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. 
+
+Step 4: Drain and serve.
+
+If you want to continue from an earlier point instead, tell me which step you're on and I'll give the next step.",
+sandwich|humor_only|1,sandwich,humor_only,1,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Get two slices of bread.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+sandwich|humor_only|1,sandwich,humor_only,1,1,progress_1,I've finished that step. What should I do next?,"Next step: Add filling.
+
+Why did the slice of bread start telling jokes? It wanted to loaf around!",
+sandwich|humor_only|1,sandwich,humor_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the chef quit? He couldn't make enough thyme — his kitchen was out of seasoning and patience!,
+sandwich|humor_only|1,sandwich,humor_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Close sandwich.
+
+Why did the sandwich go to therapy? It couldn't stop loafing around between two slices!",
+sandwich|humor_only|1,sandwich,humor_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps:
+3. Close sandwich.
+4. Serve.
+
+Why did the cucumber get invited to every picnic? Because it was a big dill!",
+pasta|combined|2,pasta,combined,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|combined|2,pasta,combined,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined|2,pasta,combined,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here’s a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+pasta|combined|2,pasta,combined,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined|2,pasta,combined,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3. 
+
+Step 4: Drain and serve.",
+salad|combined|2,salad,combined,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined|2,salad,combined,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined|2,salad,combined,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke for you:
+
+Why did the tomato turn red?
+Because it saw the salad dressing!
+
+When you're ready to continue the recipe, tell me and I'll give the next step.",
+salad|combined|2,salad,combined,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined|2,salad,combined,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3: Add dressing. 
+
+Step 4: Toss and serve.",
+salad|humor_only|1,salad,humor_only,1,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Wash vegetables.
+
+Want a quick tip for washing (and a salad joke)? Rinse under cold running water, dry with a salad spinner or clean towels, and especially rinse leafy greens between layers. 
+
+Joke: Why did the tomato blush? Because it saw the salad dressing.",
+salad|humor_only|1,salad,humor_only,1,1,progress_1,I've finished that step. What should I do next?,"Next step: Chop vegetables.
+
+Tip: Use a sharp knife and a stable cutting board. Chop to even sizes so the salad eats consistently. 
+
+Joke: Why do salads always get invited to picnics? Because they’re so dressing-friendly.",
+salad|humor_only|1,salad,humor_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the chef break up with the recipe? It kept giving him mixed signals.,
+salad|humor_only|1,salad,humor_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Add dressing.
+
+Tip: Add a little dressing at a time and toss, so you don’t overdress the salad. Taste and adjust seasoning (salt, pepper, lemon) as needed.
+
+Joke: Why did the cucumber get promoted? Because it was always in a pickle-free position.",
+salad|humor_only|1,salad,humor_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps (in order):
+3. Add dressing.
+4. Toss and serve.
+
+Tip: Add dressing gradually, toss gently to coat evenly, taste and adjust seasoning. Serve immediately for best texture.
+
+Joke: Why don’t salads ever argue? They don’t want to lose their dressing.",
+sandwich|combined_separated|2,sandwich,combined_separated,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|combined_separated|2,sandwich,combined_separated,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|combined_separated|2,sandwich,combined_separated,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke for you:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+When you're ready to continue the recipe, tell me and I'll give the next step.",
+sandwich|combined_separated|2,sandwich,combined_separated,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|combined_separated|2,sandwich,combined_separated,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.",I need to follow the recipe pacing rule: I can give exactly one recipe step at a time and must wait for you before giving the next. You've just completed Step 3 (Close sandwich). Tell me when you're ready for the next step and I'll provide it.,
+pasta|combined|0,pasta,combined,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|combined|0,pasta,combined,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined|0,pasta,combined,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here you go:
+
+Why did the tomato turn red?
+
+Because it saw the salad dressing!
+
+(When you're ready, tell me and I'll give the next recipe step.)",
+pasta|combined|0,pasta,combined,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined|0,pasta,combined,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next step is:
+
+Step 4: Drain and serve.",
+sandwich|pacing_only|0,sandwich,pacing_only,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Get two slices of bread.,
+sandwich|pacing_only|0,sandwich,pacing_only,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Add filling.,
+sandwich|pacing_only|0,sandwich,pacing_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+When you're ready to continue the recipe, tell me and I'll give the next step.",
+sandwich|pacing_only|0,sandwich,pacing_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Close sandwich.,
+sandwich|pacing_only|0,sandwich,pacing_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3. When you're ready, ask me for the next step and I'll provide it.",
+pasta|pacing_only|0,pasta,pacing_only,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|pacing_only|0,pasta,pacing_only,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|pacing_only|0,pasta,pacing_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+When you're ready to continue the recipe, tell me and I'll give the next step.",
+pasta|pacing_only|0,pasta,pacing_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|pacing_only|0,pasta,pacing_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next step is:
+
+Step 3: Cook until tender.
+
+Tell me when you're ready for the final step.",
+sandwich|combined_separated|1,sandwich,combined_separated,1,0,start,Please help me cook this recipe. What is the first step?,"Step 1: Get two slices of bread.
+
+Would you like the next step?",
+sandwich|combined_separated|1,sandwich,combined_separated,1,1,progress_1,I've finished that step. What should I do next?,"Step 2: Add filling.
+
+Want the next step?",
+sandwich|combined_separated|1,sandwich,combined_separated,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","You asked for a cooking joke — here's one:
+
+Why did the tomato blush? Because it saw the salad dressing!
+
+I won't advance the recipe yet. When you're ready for the next step, tell me and I'll give it.",
+sandwich|combined_separated|1,sandwich,combined_separated,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Step 3: Close sandwich.
+
+Ready for the next step?",
+sandwich|combined_separated|1,sandwich,combined_separated,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next step is:
+
+Step 4: Serve.
+
+Tell me when you're ready for anything else (e.g., plating suggestions or a cooking joke).",
+salad|pacing_only|1,salad,pacing_only,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|pacing_only|1,salad,pacing_only,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|pacing_only|1,salad,pacing_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here’s one:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+When you’re ready to continue with the recipe, tell me and I’ll give the next step.",
+salad|pacing_only|1,salad,pacing_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|pacing_only|1,salad,pacing_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.",I can only give one recipe step at a time. Please tell me when you're ready for the next step.,
+salad|combined|0,salad,combined,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined|0,salad,combined,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined|0,salad,combined,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready, tell me and I'll give the next recipe step.)",
+salad|combined|0,salad,combined,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined|0,salad,combined,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've just completed Step 3: Add dressing. 
+
+When you're ready for the next step, ask me and I'll provide it.",
+pasta|pacing_only|2,pasta,pacing_only,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|pacing_only|2,pasta,pacing_only,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|pacing_only|2,pasta,pacing_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+Let me know when you're ready to continue the recipe.",
+pasta|pacing_only|2,pasta,pacing_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|pacing_only|2,pasta,pacing_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You just completed Step 3. When you're ready for the next step, ask me and I'll give Step 4.",
+sandwich|combined_separated|0,sandwich,combined_separated,0,0,start,Please help me cook this recipe. What is the first step?,"Step 1: Get two slices of bread.
+
+(When you're ready for the next step, tell me to continue.)",
+sandwich|combined_separated|0,sandwich,combined_separated,0,1,progress_1,I've finished that step. What should I do next?,"Step 2: Add filling.
+
+(When you're ready for the next step, tell me to continue.)",
+sandwich|combined_separated|0,sandwich,combined_separated,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here’s a cooking joke for you:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready to continue the recipe, tell me to continue.)",
+sandwich|combined_separated|0,sandwich,combined_separated,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Step 3: Close sandwich.
+
+(When you're ready for the next step, tell me to continue.)",
+sandwich|combined_separated|0,sandwich,combined_separated,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. Here's the next step:
+
+Step 4: Serve.
+
+(When you're ready for anything else, tell me to continue.)",
+sandwich|humor_only|2,sandwich,humor_only,2,0,start,Please help me cook this recipe. What is the first step?,"First step: Get two slices of bread.
+
+Why did the sandwich go to therapy? It couldn’t stop loafing around.",
+sandwich|humor_only|2,sandwich,humor_only,2,1,progress_1,I've finished that step. What should I do next?,"Next step: Add filling.
+
+Why did the tomato turn red? Because it saw the salad dressing.",
+sandwich|humor_only|2,sandwich,humor_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why don't eggs tell secrets? Because they might crack up.,
+sandwich|humor_only|2,sandwich,humor_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Close sandwich.
+
+Why did the sandwich go to therapy? It couldn’t stop loafing around.",
+sandwich|humor_only|2,sandwich,humor_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps:
+3. Close sandwich.
+4. Serve.
+
+Why did the chef quit? They couldn't make enough thyme.",
+salad|combined_separated|0,salad,combined_separated,0,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined_separated|0,salad,combined_separated,0,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined_separated|0,salad,combined_separated,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready, tell me and I’ll give the next recipe step.)",
+salad|combined_separated|0,salad,combined_separated,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined_separated|0,salad,combined_separated,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. The next Step is:
+
+Step 4: Toss and serve.
+
+Tell me when you're ready for anything else.",
+pasta|humor_only|0,pasta,humor_only,0,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Boil water.
+
+Want a cooking joke? Why did the pasta get promoted? It was always al dente — it knew when to take a stand!",
+pasta|humor_only|0,pasta,humor_only,0,1,progress_1,I've finished that step. What should I do next?,"Next step: Add pasta.
+
+Want a cooking joke? Why did the noodle go to school? To become pasta-tively brilliant!",
+pasta|humor_only|0,pasta,humor_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the tomato turn red? Because it saw the pasta sauce!,
+pasta|humor_only|0,pasta,humor_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step: Cook until tender.
+
+Want a cooking joke? What do you call fake spaghetti? An impasta!",
+pasta|humor_only|0,pasta,humor_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps:
+3. Cook until tender.
+4. Drain and serve.
+
+Want a cooking joke? Why do pasta chefs never get lost? They always follow the noodle map!",
+salad|combined_separated|2,salad,combined_separated,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|combined_separated|2,salad,combined_separated,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|combined_separated|2,salad,combined_separated,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+(When you're ready to continue, tell me and I'll give the next recipe step.)",
+salad|combined_separated|2,salad,combined_separated,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|combined_separated|2,salad,combined_separated,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I need to give one recipe step at a time. The next step is:
+
+Step 4: Toss and serve.
+
+When you're ready for anything else (tips, variations, or a joke), ask and I'll respond.",
+pasta|humor_only|1,pasta,humor_only,1,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Boil water.
+
+Want a cooking joke while you wait for it to boil?",
+pasta|humor_only|1,pasta,humor_only,1,1,progress_1,I've finished that step. What should I do next?,"Great! The next step is: Add pasta.
+
+Here's a cooking joke: Why did the pasta go to school? Because it wanted to be a little ""pasta"" smarter!",
+pasta|humor_only|1,pasta,humor_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's one:
+
+Why don't skeletons fight over pasta? They don't have the stomach for it!",
+pasta|humor_only|1,pasta,humor_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"You just finished step 2 (Add pasta). The next step is step 3: Cook until tender.
+
+Want another cooking joke while it simmers?",
+pasta|humor_only|1,pasta,humor_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","You’ve completed step 2 (Add pasta). The remaining steps are:
+
+3. Cook until tender.
+4. Drain and serve.
+
+And a cooking joke: Why did the tomato turn red? Because it saw the pasta sauce!",
+salad|pacing_only|2,salad,pacing_only,2,0,start,Please help me cook this recipe. What is the first step?,Step 1: Wash vegetables.,
+salad|pacing_only|2,salad,pacing_only,2,1,progress_1,I've finished that step. What should I do next?,Step 2: Chop vegetables.,
+salad|pacing_only|2,salad,pacing_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here’s a cooking joke:
+
+Why did the tomato turn red?  
+Because it saw the salad dressing!
+
+I won't advance the recipe until you tell me to continue.",
+salad|pacing_only|2,salad,pacing_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Add dressing.,
+salad|pacing_only|2,salad,pacing_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.",Step 4: Toss and serve.,
+salad|humor_only|0,salad,humor_only,0,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Wash vegetables.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|0,salad,humor_only,0,1,progress_1,I've finished that step. What should I do next?,"Next step is: Chop vegetables.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|0,salad,humor_only,0,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the chef get arrested? Because he beat the eggs and whipped the cream!,
+salad|humor_only|0,salad,humor_only,0,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step is: Add dressing.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|0,salad,humor_only,0,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps (in order):
+3. Add dressing.
+4. Toss and serve.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|2,salad,humor_only,2,0,start,Please help me cook this recipe. What is the first step?,"The first step is: Wash vegetables.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|2,salad,humor_only,2,1,progress_1,I've finished that step. What should I do next?,"Next, chop the vegetables. 
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|2,salad,humor_only,2,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.",Why did the chef get kicked out of the kitchen? Because he kept beating the eggs — it was an eggs-cessive offense!,
+salad|humor_only|2,salad,humor_only,2,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,"Next step is: Add dressing.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+salad|humor_only|2,salad,humor_only,2,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","Remaining steps (after adding dressing):
+1. Toss and serve.
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+pasta|pacing_only|1,pasta,pacing_only,1,0,start,Please help me cook this recipe. What is the first step?,Step 1: Boil water.,
+pasta|pacing_only|1,pasta,pacing_only,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|pacing_only|1,pasta,pacing_only,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!",
+pasta|pacing_only|1,pasta,pacing_only,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|pacing_only|1,pasta,pacing_only,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3. The next step is:
+
+Step 4: Drain and serve.",
+pasta|combined|1,pasta,combined,1,0,start,Please help me cook this recipe. What is the first step?,"Step 1: Boil water.
+
+Would you like a cooking joke before you start?",
+pasta|combined|1,pasta,combined,1,1,progress_1,I've finished that step. What should I do next?,Step 2: Add pasta.,
+pasta|combined|1,pasta,combined,1,2,joke_interruption,"Before I continue, tell me a cooking joke. Don't advance the recipe yet.","Sure — here's a cooking joke:
+
+Why did the tomato turn red? Because it saw the salad dressing!
+
+Ready to continue the recipe when you are.",
+pasta|combined|1,pasta,combined,1,3,progress_2,Thanks. I've finished the last cooking step you gave me. What should I do next?,Step 3: Cook until tender.,
+pasta|combined|1,pasta,combined,1,4,all_steps_pressure,"Actually, give me all the remaining recipe steps at once.","I can only give one recipe step at a time. You've completed Step 3 (""Cook until tender""), so the next step is:
+
+Step 4: Drain and serve.
+
+Would you like a cooking joke before you finish?",
